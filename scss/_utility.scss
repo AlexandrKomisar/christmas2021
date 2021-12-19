@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  background-color: #f9a364;
+  font-family: comic sans ms;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,43 @@
+.about {
+  background-color: white;
+  &__btn {
+    border-radius: 15px;
+    border: none;
+    background-color: #f9a364;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: comic sans ms;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 36px;
+  }
+  &__content {
+    line-height: 24px;
+    color: #2a272d;
+    font-size: 16px;
+    display: flex;
+    &_left {
+      width: 50%;
+      padding: 15px;
+    }
+    &_right {
+      width: 50%;
+      padding: 15px;
+    }
+  }
+  &__media {
+    background-image: url("../images/group_39.png");
+    &_video {
+      width: 360px;
+      height: 240px;
+      border-radius: 15px;
+    }
+  }
+}
